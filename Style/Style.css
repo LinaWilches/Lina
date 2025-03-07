@@ -1,0 +1,55 @@
+body{
+    font-style: italic;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#header1 {
+    background-color: #f0b27a;
+    font-size: xx-large;
+    display: flex;
+    width: 100%;    
+}
+#header2{
+    background-color: #eb984e; 
+    width: 20%;
+    text-align: center;
+}
+.menu{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+.menu1{
+    margin: 0 60px;
+    text-decoration: none;
+    color: black;
+    
+}
+#header3{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    height: 200px;
+    width: 100%;
+}
+#header4{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 25%;
+    height: 200px;
+}
+#header5{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 25%;
+    height: 200px;
+}
+section{
+    border: 1px solid black;
+    height: 20px;
+    width: 65%;
+}
