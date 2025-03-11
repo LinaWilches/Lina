@@ -1,103 +1,125 @@
-body{
+body {
     font-style: italic;
     margin: auto;
     max-width: 100%;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: row;
-    width: 100%;
-}
+    width: 100%;}
+
 #header1 {
     background-color: #f0b27a;
     font-size: 3rem;
     display: flex;
     width: 100%;
+}
 
-}
-#header2{
-    background-color: #eb984e; 
-    width: 20%;
+#header2 {
+    background-color: #eb984e;
+    width: 25%;
     text-align: center;
+    border-radius: 5px;
 }
-.menu{
+
+.menu {
     font-size: 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     width: 100%;
 }
-.menu1{
+
+.menu1 {
     margin: auto;
     text-decoration: none;
     color: black;
-    
 }
+
 .menu1:hover {
     color: #000000;
     background-color: #f5cba7;
     padding: 10px;
     border-radius: 10px;
 }
-#header3{
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
-    height: 200px;
+
+#img1 {
+    background-color: rgb(236, 210, 210);
+    border: 1px solid rgb(236, 210, 210);
+    height: 250px;
     width: 100%;
 }
-#header4{
+
+#box {
     background-color: #f5cba7;
     border: 1px solid rgb(255, 255, 255);
     width: 25%;
     height: 200px;
+    text-align: center;
+    font-size: x-large;
 }
-#header5{
-    background-color: #f5cba7;
+
+#box p{
+    width: 95%;
+    margin: 25% auto;
+}
+
+#box2 {
+    background-color: #f7bb86;
     border: 1px solid rgb(255, 255, 255);
     width: 25%;
     height: 200px;
+    text-align: center;
+    font-size: x-large;
 }
+
+#box2 p{
+    width: 95%;
+    margin: 25% auto;
+}
+
 #section1{
-    background-color: #f0b27a;
-    width: auto;
-    border-radius: 5px;
-    font-size: larger;
-    text-align: center;
-    transform-origin: top left; /* Set the origin for rotation */
-    transform: rotate(-90deg);
-}
-#section2{
-    background-color: #f0b27a;
-    width: auto;
-    border-radius: 5px;
-    font-size: larger;
-    text-align: center;
-    transform-origin: top left; /* Set the origin for rotation */
-    transform: rotate(-90deg); 
-}
-#header6{
-    background-color: #f5cba7;
+    background-color: #eb984e;
     border: 1px solid rgb(255, 255, 255);
-    width: 25%;
+    width: 4%;
     height: 200px;
-    
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
-#header7{
-    background-color: #f5cba7;
-    border: 1px solid rgb(255, 255, 255);
-    width: 25%;
-    height: 200px;
+.rotacion{
+    rotate: -90deg;
 }
-#callcenter{
+
+#link {
     border: 1px solid rgb(255, 255, 255);
-    width: 25%;
+    width: 31%;
     height: 200px;
     background-color: #d37e33;
+    text-align: center;
 }
-#header9{
+
+#link h2{
+    width: 95%;
+    margin: 25% auto;
+}
+
+#header9 {
     border: 1px solid rgb(255, 255, 255);
-    width: 75%;
+    width: 80%;
     height: 200px;
     background-color: #d37e33;
+    text-align: center;
+    padding: auto;
+}
+
+#header9 p{
+    width: 95%;
+    margin: 5% auto;
+}
+
+#banner1{
+    background-color: #ba4a00;
 }
