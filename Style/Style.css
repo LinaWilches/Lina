@@ -1,6 +1,7 @@
 body{
     font-style: italic;
     margin: auto;
+    max-width: 100%;
 }
 .container{
     display: flex;
@@ -56,19 +57,31 @@ body{
     width: 25%;
     height: 200px;
 }
-section{
+#section1{
     background-color: #f0b27a;
-    height: auto;
     width: auto;
     border-radius: 5px;
     font-size: larger;
     text-align: center;
+    transform-origin: top left; /* Set the origin for rotation */
+    transform: rotate(-90deg);
+}
+#section2{
+    background-color: #f0b27a;
+    width: auto;
+    border-radius: 5px;
+    font-size: larger;
+    text-align: center;
+    transform-origin: top left; /* Set the origin for rotation */
+    transform: rotate(-90deg); 
 }
 #header6{
     background-color: #f5cba7;
     border: 1px solid rgb(255, 255, 255);
     width: 25%;
     height: 200px;
+    
+    
 }
 #header7{
     background-color: #f5cba7;
@@ -84,7 +97,7 @@ section{
 }
 #header9{
     border: 1px solid rgb(255, 255, 255);
-    width: 50%;
+    width: 75%;
     height: 200px;
     background-color: #d37e33;
 }
