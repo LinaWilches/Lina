@@ -136,7 +136,6 @@ body {
 
 }
 #banner1 h1{
-    width: 95%;
     margin: 5% auto;
 }
 
@@ -160,7 +159,7 @@ body {
 
 .galeria{
     width: 20%;
-    height: 350px;
+    height: 250px;
     padding: 10px;
 }
 
@@ -179,7 +178,23 @@ body {
 }
 
 #banner2{
+    display: flex;
+    padding: 10px;
+    background-color: #f5cba7;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+#contact{
+    padding: 10px;
     background-color: #ba4a00;
     height: 150px;
+    text-align: center;
+    font-size: xx-large;
+    margin: 4% auto 0 auto;
 }
+
+
 
